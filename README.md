@@ -21,6 +21,10 @@ A Manifest V3 Chrome/Chromium new-tab extension centered on bookmarks, fast sear
 - Weather, RSS/trending feeds and soundscapes
 - Theme studio, keyboard shortcuts and English/Persian UI
 
+## Preview
+
+![PIMXDASH dashboard example](dashboard-top.png)
+
 ## Stack
 
 | Tool | Version / source |
