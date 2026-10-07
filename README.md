@@ -1,31 +1,45 @@
 <div align="center">
 
-<img src="assets/readme/hero.gif" width="1200" alt="PIMX DASH — rotating 3D geometry" />
+<img src="assets/readme/hero.gif" width="1200" alt="PIMX DASH: a new-tab command center with bookmarks, search and focus widgets" />
 
 **[English](README.md) · [فارسی](README.fa.md)**
 
-<img src="assets/readme/identity.svg" width="1200" alt="web / English and Persian documentation" />
-
 </div>
 
-# PIMX DASH
+# 🧩 PIMX DASH
 
 A Manifest V3 Chrome/Chromium new-tab extension centered on bookmarks, fast search, focus tools and modular productivity widgets.
 
 [GitHub](https://github.com/MOHAMMADREZAABEDINPOOR/PIMXDASH) · [PIMX / Profile](https://github.com/MOHAMMADREZAABEDINPOOR) · [Static artwork](assets/readme/hero.png)
 
-## Features
+| At a glance | Details |
+|:---|:---|
+| 🧩 Experience | Chrome / Chromium new-tab extension |
+| 🧰 Built with | `React` · `Vite` · `TypeScript` · `Tailwind CSS` |
+| 🌐 Documentation | [English](README.md) · [فارسی](README.fa.md) |
 
-- Bookmark command center, search and categorization
-- Tasks, notes, habits, Pomodoro and world clocks
-- Weather, RSS/trending feeds and soundscapes
-- Theme studio, keyboard shortcuts and English/Persian UI
+[✨ Features](#features) · [🚀 Getting started](#getting-started) · [⚙️ Configuration](#configuration) · [🌍 Deployment](#deployment)
+
+---
+
+<a id="features"></a>
+
+## ✨ Features
+
+| Area | Included capability |
+|:---|:---|
+| ⭐ Collection | Bookmark command center, search and categorization |
+| 🗓️ Planning | Tasks, notes, habits, Pomodoro and world clocks |
+| ⚡ Workflow | Weather, RSS/trending feeds and soundscapes |
+| 🌐 Experience | Theme studio, keyboard shortcuts and English/Persian UI |
 
 ## Preview
 
 ![PIMXDASH dashboard example](dashboard-top.png)
 
-## Stack
+<a id="stack"></a>
+
+## 🧰 Stack
 
 | Tool | Version / source |
 |---|---|
@@ -34,7 +48,9 @@ A Manifest V3 Chrome/Chromium new-tab extension centered on bookmarks, fast sear
 | TypeScript | `^5.7.3` |
 | Tailwind CSS | `^3.4.17` |
 
-## Getting started
+<a id="getting-started"></a>
+
+## 🚀 Getting started
 
 Node.js 22.12+ and the package manager declared in package.json. Install dependencies from the checked-in lockfile where available.
 
@@ -46,15 +62,21 @@ npm ci
 npm run build
 ```
 
-## Configuration
+<a id="configuration"></a>
+
+## ⚙️ Configuration
 
 No standard environment template is defined. Standalone exercises need no external configuration; inspect any service constants or paths in the source before running.
 
-## Usage
+<a id="usage"></a>
+
+## 🎯 Usage
 
 Run npm run build, open chrome://extensions, enable Developer mode and choose Load unpacked → dist. Open a new tab and complete onboarding. The Vite dev server previews the interface; Chrome APIs need the installed extension.
 
-## Project structure
+<a id="project-structure"></a>
+
+## 🗂️ Project structure
 
 | Path | Role |
 |---|---|
@@ -67,7 +89,17 @@ Run npm run build, open chrome://extensions, enable Developer mode and choose Lo
 | [`package.json`](package.json) | Project entry/configuration file |
 | [`tsconfig.json`](tsconfig.json) | Project entry/configuration file |
 
-## Commands and checks
+<a id="commands-and-checks"></a>
+
+## 🧪 Commands and checks
+
+| Command | Purpose |
+|:---|:---|
+| `npm run dev` | 🧑‍💻 Development server |
+| `npm run build` | 📦 Production build |
+| `npm run preview` | 👀 Preview a build |
+| `npm run type-check` | 🔧 type-check |
+| `npm run check:bookmarks` | 🔧 check:bookmarks |
 
 ```bash
 npm run dev
@@ -82,28 +114,46 @@ npm run check:quotes
 
 These commands are declared in package.json; the list is not a test execution report. Test commands may need a browser, service or prepared database.
 
-## Deployment
+<a id="deployment"></a>
+
+## 🌍 Deployment
 
 `npm run build` creates dist for Chrome Load unpacked. A browser-store submission also needs a manifest/privacy-policy review matching the actual permissions.
 
-## Limitations
+<a id="limitations"></a>
+
+## 📌 Limitations
 
 The manifest requests bookmarks, history, tabs, geolocation, system and notification permissions plus content-script access to HTTP/HTTPS pages. External feeds depend on their providers; inspect permissions before installation.
 
-## Troubleshooting
+<a id="troubleshooting"></a>
+
+## 🛠️ Troubleshooting
 
 - Missing packages: install dependencies using the project’s package manager.
 - API/network failure: check the configured origin, provider and hosting bindings.
 - Old assets: rebuild when a build script exists, then clear the browser cache.
 
-## Contributing
+<a id="contributing"></a>
+
+## 🤝 Contributing
 
 Create a focused branch, verify the affected behavior and explain the change clearly. Keep private data, build outputs and local databases out of commits.
 
-## License
+<a id="license"></a>
+
+## 📄 License
 
 No repository-level license file is included in this snapshot. Public visibility alone does not grant reuse rights; contact the repository owner for terms.
 
 ---
 
 Part of **PIMX** · Documentation in English and Persian.
+
+---
+
+<div align="center">
+
+🧩 **PIMX DASH** · [English](README.md) · [فارسی](README.fa.md)
+
+</div>
