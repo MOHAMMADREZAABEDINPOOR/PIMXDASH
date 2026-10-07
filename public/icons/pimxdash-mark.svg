@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PIMXDASH">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111f38"/><stop offset=".55" stop-color="#14132d"/><stop offset="1" stop-color="#080d1c"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#5b8cff"/><stop offset=".52" stop-color="#8d6dff"/><stop offset="1" stop-color="#34e2d0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect x="5" y="5" width="118" height="118" rx="32" fill="url(#shell)" stroke="#52639e" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M64 15 106 39v49l-42 25-42-25V39z" fill="none" stroke="url(#beam)" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M39 92V36h30c18 0 28 10 28 24S87 84 69 84H55" fill="none" stroke="#7d76ff" stroke-opacity=".65" stroke-width="14" filter="url(#glow)"/>
+  <path d="M39 92V36h30c18 0 28 10 28 24S87 84 69 84H55" fill="none" stroke="url(#beam)" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M65 84 91 101" stroke="#37e8d9" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="99" cy="34" r="4" fill="#43e7dc"/>
+</svg>

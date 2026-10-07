@@ -1,0 +1,37 @@
+{
+  "name": "pimxdash",
+  "version": "1.0.0",
+  "description": "PIMXDASH - Bookmark-first command center for Chrome and Chromium",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "check:bookmarks": "node scripts/check-bookmark-workspace.mjs",
+    "check:background": "node scripts/check-background.mjs",
+    "check:weather": "node scripts/check-weather-city.mjs",
+    "check:quotes": "node scripts/check-quotes.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/vazirmatn": "^5.3.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.304",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
